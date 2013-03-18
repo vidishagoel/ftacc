@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<title>Front Accounting Menu</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	
+</head>
+<body bgcolor="#FF0000"> 
+	
+	
+				
+				<div class="navbar">
+					<div class="navbar-inner">
+					<div class="container">
+						
+				<ul class="nav nav-tabs">
+											
+					<li class="dropdown"><!--sales begin!-->
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+							Sales <b class="caret"></b></a>
+								
+					<ul class="dropdown-menu">
+					<li class="dropdown-submenu">
+						<a tabindex="-1" href="#">Transaction</a>                                		
+                               <ul class="dropdown-menu">
+				<li><a href="sales_order_entry.php">Sales Quotation Entry</a></li>					
+				<li><a href="#">Sales Order Entry</a></li>
+										
+				<li><a href="#">Direct Delivery</a></li>
+								
+				<li><a href="#"> Direct Invoice</a></li>
+				<li><a href="#">Delivery Against Sales Orders</a></li>
+				<li><a href="#">Invoice Against Sales Delivery</a></li>
+				<li><a href="#"> Template Delivery</a></li>
+				<li><a href="#">Create and Print Recurrent Invoices</a></li>
+				<li><a href="#">Customer Payments</a></li>
+				<li><a href="#">Customer Credit Notes</a></li>
+				<li><a href="#">Allocate Customer Payments or Credit Notes</a></li>
+                                    </ul> 
+                            </li>		
+				<li class="divider"></li>
+					<li class="dropdown-submenu">
+                            			<a tabindex="-1" href="#">Inquires and Reports</a>
+                                		
+                                    			<ul class="dropdown-menu">
+								<li><a href="#">Sales Quotation Inquiry</a></li>
+								<li><a href="#">Sales Order Inquiry</a></li>
+								<li><a href="#">Customer Transaction Inquiry</a></li>
+								<li><a href="#">Customer Allocation Inquiry</a></li>
+								<li><a href="#">Customer and Sales Reports</a></li>
+                                    </ul> 
+                            </li>
+			<li class="divider"></li>
+                            <li class="dropdown-submenu">
+                            	<a tabindex="-1" href="#">Maintainence</a>
+                                		
+                                    <ul class="dropdown-menu">
+					<li><a href="#">Add and Manage Customers</a></li>
+						<li><a href="#"> Customer Branches</a></li>
+						<li><a href="#"> Sales Groups</a></li>
+						<li><a href="#">  Recurrent Invoices</a></li>
+						<li><a href="#">  Sales Persons</a></li>
+						<li><a href="#">    Sales Areas</a></li>
+						<li><a href="#">    Credit Status Setup</a></li>
+                                    </ul> 
+                            </li>
+				</ul>
+								
+				</li><!--end-->
+			<li class="dropdown"><!--Purchase begin!-->
+			    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+						Purchase <b class="caret"></b>    </a>
+				<ul class="dropdown-menu">
+				  <li class="dropdown-submenu">
+                            	   <a tabindex="-1" href="#">Transaction</a>                                		
+                                    <ul class="dropdown-menu">
+					<li><a href="#">Purchase Order Entry</a></li>
+					<li><a href="#">Outstanding Purchase Orders Maintenance</a></li>
+					<li><a href="#">  Direct GRN</a></li>
+					<li><a href="#">  Direct Invoice</a></li>
+				      <li><a href="#">Payments to Suppliers</a></li>
+					<li><a href="#">  Supplier Invoices</a></li>
+				     <li><a href="#">Supplier Credit Notes</a></li>
+					<li><a href="#">  Allocate Supplier Payments or Credit Notes</a></li>
+                                 </ul> 
+                            </li>		
+				<li class="divider"></li>
+					<li class="dropdown-submenu">
+                            	<a tabindex="-1" href="#">Inquires and Reports</a>
+                                		
+                                    <ul class="dropdown-menu">
+					<li><a href="#">Purchase Orders Inquiry</a></li>
+						<li><a href="#">  Supplier Transaction Inquiry</a></li>
+						<li><a href="#">Supplier Allocation Inquiry</a></li>
+						<li><a href="#">  Supplier and Purchasing Reports</a></li>
+                                    </ul> 
+                            </li>
+					<li class="divider"></li>
+                            			<li class="dropdown-submenu">
+                            				<a tabindex="-1" href="#">Maintainence</a>
+                                		
+                                    				<ul class="dropdown-menu">
+									<li><a href="#"> Suppliers </a></li>
+                                    				</ul> 
+                            			</li>
+								</ul>
+								
+						</li><!--end-->
+			<li class="dropdown"><!--item and inventory begin!-->
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+						Item and Inentory <b class="caret"></b>
+						</a>
+								
+				<ul class="dropdown-menu">
+				<li class="dropdown-submenu">
+                            	<a tabindex="-1" href="#">Transaction</a>                                		
+                                    <ul class="dropdown-menu">
+					<li><a href="#">Inventory Location Transfers</a></li>
+					<li><a href="#">Inventory Adjustments</a></li>
+                                    </ul> 
+                            </li>		
+					<li class="divider"></li>
+						<li class="dropdown-submenu">
+                            		<a tabindex="-1" href="#">Inquires and Reports</a>
+                                		
+                                    <ul class="dropdown-menu">
+					<li><a href="#">  Inventory Item Movements</a></li>
+					<li><a href="#">Inventory Item Status</a></li>
+					<li><a href="#">Inventory Reports</a></li>
+                                    </ul> 
+                            </li>
+			<li class="divider"></li>
+                            <li class="dropdown-submenu">
+                            	<a tabindex="-1" href="#">Maintainence</a>
+                                		
+                                    <ul class="dropdown-menu">
+								<li><a href="#">Items</a></li>
+								<li><a href="#">Foreign Item Codes</a></li>
+								<li><a href="#">Sales Kits</a></li>
+								<li><a href="#">Item Categories</a></li>
+								<li><a href="#">Inventory Locations</a></li>
+								<li><a href="#">Inventory Movement Types</a></li>
+								<li><a href="#">Foreign Item Codes</a></li>
+								<li><a href="#">Units of Measure</a></li>
+								<li><a href="#">Reorder Levels</a></li>
+                                    </ul> 
+                            </li>
+			<li class="divider"></li>
+                            <li class="dropdown-submenu">
+                            	<a tabindex="-1" href="#">Pricing and Cost</a>
+                                		
+                                    <ul class="dropdown-menu">
+						<li><a href="#">Sales Pricing</a></li>
+						<li><a href="#"> Purchasing Pricing</a></li>
+						<li><a href="#">Standard Costs</a></li>
+                                    </ul> 
+                            </li>
+				</ul>
+								
+			</li><!--end-->
+				<li class="dropdown"><!--Manufacturing begin!-->
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+						Manufacturing <b class="caret"></b>
+								</a>
+								
+					<ul class="dropdown-menu">
+						<li class="dropdown-submenu">
+                            	<a tabindex="-1" href="#">Transaction</a>                                		
+                                    <ul class="dropdown-menu">
+					<li><a href="#">Work Order Entry</a></li>
+					<li><a href="#">Outstanding Work Orders</a></li>
+                                    </ul> 
+                            </li>		
+						<li class="divider"></li>
+							<li class="dropdown-submenu">
+                            	<a tabindex="-1" href="#">Inquires and Reports</a>
+                                		
+                                    <ul class="dropdown-menu">
+				<li><a href="#">  Costed Bill Of Material Inquiry</a></li>
+				<li><a href="#">Inventory Item Where Used Inquiry</a></li>
+				<li><a href="#"> Work Order Inquiry</a></li>
+				<li><a href="#"> Manufacturing Reports</a></li>
+                    
+                                    </ul> 
+                            </li>
+		<li class="divider"></li>
+                            <li class="dropdown-submenu">
+                            	<a tabindex="-1" href="#">Maintainence</a>
+                                		
+                                    <ul class="dropdown-menu">
+						<li><a href="#">Bills Of Material</a></li>
+						<li><a href="#">Work Centres</a></li>
+                                    </ul> 
+                            </li>
+				</ul>
+								
+				</li><!--end-->
+			<li class="dropdown"><!--Dimension begin!-->
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+						Dimension <b class="caret"></b>
+								</a>
+								
+		<ul class="dropdown-menu">
+			<li class="dropdown-submenu">
+                            <a tabindex="-1" href="#">Transaction</a>                                		
+                                    <ul class="dropdown-menu">
+					<li><a href="#">Dimension Entry</a></li>
+					<li><a href="#">Outstanding Dimensions</a></li>
+                                    </ul> 
+                            </li>		
+				<li class="divider"></li>
+				<li class="dropdown-submenu">
+                            	<a tabindex="-1" href="#">Inquires and Reports</a>
+                                		
+                                    <ul class="dropdown-menu">
+					<li><a href="#">  Dimension Inquiry</a></li>
+					<li><a href="#">Dimension Reports</a></li> 
+                    
+                                    </ul> 
+                            </li>
+		<li class="divider"></li>
+                            <li class="dropdown-submenu">
+                            	<a tabindex="-1" href="#">Maintainence</a>
+                                		
+                                    <ul class="dropdown-menu">
+					<li><a href="#">Dimension Tags</a></li>
+                                    </ul> 
+                            </li>
+				</ul>
+								
+				</li><!--end-->
+			<li class="dropdown"><!--Banking and General ledger begin!-->
+			<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+				Banking and General Ledger <b class="caret"></b>
+								</a>
+								
+						<ul class="dropdown-menu">
+						<li class="dropdown-submenu">
+                            	<a tabindex="-1" href="#">Transaction</a>                                		
+                                    <ul class="dropdown-menu">
+							<li><a href="#">Payments</a></li>
+							<li><a href="#">Deposits</a></li>
+							<li><a href="#">Bank Account Transfers</a></li>
+							<li><a href="#">Journal Entry</a></li>
+							<li><a href="#">Budget Entry</a></li>
+							<li><a href="#">Reconcile Bank Account</a></li>
+                                    </ul> 
+                            </li>		
+			<li class="divider"></li>
+			<li class="dropdown-submenu">
+                            	<a tabindex="-1" href="#">Inquires and Reports</a>
+                                		
+                                    <ul class="dropdown-menu">
+						<li><a href="#">  Journal Inquiry</a></li>
+						<li><a href="#">GL Inquiry</a></li>
+						<li><a href="#">Bank Account Inquiry</a></li>
+						<li><a href="#">  Tax Inquiry</a></li>
+						<li><a href="#">  Trial Balance</a></li>
+						<li><a href="#">Balance Sheet Drilldown</a></li>
+						<li><a href="#">  Profit and Loss Drilldown</a></li>
+						<li><a href="#">Banking Reports</a></li>
+						<li><a href="#"> General Ledger Reports</a></li>
+                    
+                                    </ul> 
+                            </li>
+			<li class="divider"></li>
+                            <li class="dropdown-submenu">
+                            	<a tabindex="-1" href="#">Maintainence</a>
+                                		
+                             <ul class="dropdown-menu">
+					<li><a href="#">  Journal Inquiry</a></li>
+					<li><a href="#">GL Inquiry</a></li>
+					<li><a href="#">Bank Account Inquiry</a></li>
+					<li><a href="#">  Tax Inquiry</a></li>
+					<li><a href="#">  Trial Balance</a></li>
+					<li><a href="#">Balance Sheet Drilldown</a></li>
+					<li><a href="#">  Profit and Loss Drilldown</a></li>
+					<li><a href="#">Banking Reports</a></li>
+					<li><a href="#"> General Ledger Reports</a></li>
+                                    </ul> 
+                            </li>
+			</ul>
+								
+		</li><!--end-->
+				<li class="dropdown"><!--Setup begin!-->
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+									Setup <b class="caret"></b>
+								</a>
+								
+					<ul class="dropdown-menu">
+					<li class="dropdown-submenu">
+                		            	<a tabindex="-1" href="#">Company Setup</a>                                		
+                                  <ul class="dropdown-menu">
+						<li><a href="#">Company Setup</a></li>
+								<li><a href="#">User Account Setup</a></li>
+								<li><a href="#">Access Setup</a></li>
+								<li><a href="#">Display Setup</a></li>
+								<li><a href="#">Forms Setup</a></li>
+								<li><a href="#">Taxes</a></li>
+								<li><a href="#">Tax Groups</a></li>
+								<li><a href="#">Item Tax Types</a></li>
+								<li><a href="#">Standard and General GL Setup</a></li>
+								<li><a href="#">Fiscal Years</a></li>
+								<li><a href="#">Print Profiles</a></li>
+                                    </ul> 
+                            </li>		
+				<li class="divider"></li>
+					<li class="dropdown-submenu">
+                            		<a tabindex="-1" href="#">Miscellaneous</a>
+                                		
+                                		    <ul class="dropdown-menu">
+								<li><a href="#"> Payment Terms</a></li>
+								<li><a href="#">Shipping Company</a></li>
+								<li><a href="#">Point of Sales</a></li>
+								<li><a href="#">Printers</a></li>
+								<li><a href="#">Contact Categories</a></li>
+											                   
+                                    </ul> 
+                            </li>
+					<li class="divider"></li>
+                            			<li class="dropdown-submenu">
+                            					<a tabindex="-1" href="#">Maintainence</a>
+                                		
+                                    <ul class="dropdown-menu">
+						<li><a href="#"> Void A Transaction</a></li>
+						<li><a href="#">View or Print Transaction</a></li>
+						<li><a href="#">Attach Documents</a></li>
+						<li><a href="#"> System Dianostics</a></li>
+						<li><a href="#"> Backup and Restores</a></li>
+						<li><a href="#">Create/Update Companies</a></li>
+						<li><a href="#">Instal/Update Languages</a></li>
+						<li><a href="#">Install/Activate Extension</a></li>
+						<li><a href="#">Install/Activate Themes</a></li>
+					<li><a href="#">Instal/Activate chart of Accounts</a></li>
+					<li><a href="#">Software Upgrade</a></li>
+									
+                                    	</ul> 
+                            		</li>
+				</ul>
+								
+			</li><!--end-->
+							
+						</ul>
+						
+					</div>
+				</div>
+				
+			</div>
+		
+	
+
+</body>
+</html>
